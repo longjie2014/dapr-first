@@ -15,3 +15,9 @@ services:
     language: csharp
     host: containerapp
     module: app/subscriber
+  miniapi:
+    project: MaintanceAPI
+    dist: build
+    language: csharp
+    host: containerapp
+    module: app/miniapi
